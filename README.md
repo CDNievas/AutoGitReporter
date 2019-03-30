@@ -34,7 +34,7 @@ You must do a POST to https://autogitreporter.herokuapp.com/addIssue with a json
 - You can give push permissions to [@AutoGitReporter](https://github.com/AutoGitReporter). It will accept it in 24hs.
 
 ## Template/Module for use
-The template or module to use it will contains the next functions:
+The template or module to use will contains the next functions:
 
 - [ ] Logging all the activity that the dev wants to be in the issue.
 - [ ] Getting specs of the computer where is running.
