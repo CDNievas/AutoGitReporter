@@ -31,11 +31,11 @@ You must do a POST to https://autogitreporter.herokuapp.com/addIssue with a json
 - The "issue" compontent of the json is descripted here by [GitHub API](https://developer.github.com/v3/issues/#parameters-2)
 - The return of the post is the same that is descripted in the GitHub web linked above.
 - Milestone, Labels and Assignee is only accepted if the bot [@AutoGitReporter](https://github.com/AutoGitReporter) has push access.
-- You can give push permissions to [@AutoGitReporter](https://github.com/AutoGitReporter). It will accept it in 24hs (is running a cron task accepting all the invitations)
+- You can give push permissions to [@AutoGitReporter](https://github.com/AutoGitReporter). It will accept it in 24hs.
 
-## Templates to do
-- [ ] Java
-- [ ] Python
-- [ ] .NET
-- [ ] PHP
-- [ ] More?
+## Template/Module for use
+The template or module to use it will contains the next functions:
+
+- [ ] Logging all the activity that the dev wants to be in the issue.
+- [ ] Getting specs of the computer where is running.
+- [ ] Java/JavaScript/PHP/.NET/Python versions.
